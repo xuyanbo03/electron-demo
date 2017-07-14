@@ -42,12 +42,12 @@
             <strong>{{ remaining }}</strong> {{ remaining | pluralize }} left
             </span>
             <ul class="filters">
-            <li><a href="#/all" :class="{ selected: visibility == 'all' }">All</a></li>
-            <li><a href="#/active" :class="{ selected: visibility == 'active' }">Active</a></li>
-            <li><a href="#/completed" :class="{ selected: visibility == 'completed' }">Completed</a></li>
+            <li><a href="#/all" :class="{ selected: visibility == 'all' }">全部事项</a></li>
+            <li><a href="#/active" :class="{ selected: visibility == 'active' }">待办</a></li>
+            <li><a href="#/completed" :class="{ selected: visibility == 'completed' }">完成</a></li>
             </ul>
             <button class="clear-completed" @click="removeCompleted" v-show="todos.length > remaining">
-            Clear completed
+                清理全部完成事项
             </button>
         </footer>
     </section>

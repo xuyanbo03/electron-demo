@@ -10,9 +10,7 @@
   "author": "Awebone",
   "license": "MIT",
   "devDependencies": {
-    "asar": "^0.13.0",
     "electron": "^1.6.11",
-    "electron-builder": "^19.16.0",
     "electron-packager": "^8.7.2"
   }
 }
