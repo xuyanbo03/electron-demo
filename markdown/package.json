@@ -1,0 +1,17 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "A markdown editer.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . todolist --platform=win32 --arch=x64 --out=dist/ --overwrite --ignore=./node_modules/* --ignore=./dist"
+  },
+  "keywords": [],
+  "author": "Awebone",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  }
+}
